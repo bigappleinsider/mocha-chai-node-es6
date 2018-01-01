@@ -1,13 +1,23 @@
 {
   "name": "UnitTesting",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testing out unit testing with mocha, chai, node, and es6",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --require babel-core/register"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "test",
+    "node",
+    "es6",
+    "mocha",
+    "chai"
+  ],
+  "author": "Vlad Vinnikov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigappleinsider/mocha-chai-node-es6.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
